@@ -67,6 +67,11 @@
             "name": "lastName",
             "in": "query",
             "type": "string"
+          },
+          {
+            "name": "contact",
+            "in": "query",
+            "type": "string"
           }
         ],
         "responses": {

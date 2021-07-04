@@ -39,6 +39,7 @@ router.post('/create', async (req, res) => {
   const customer = await db.Customer.create({
     firstName: req.query.firstName,
     lastName: req.query.lastName,
+    contact: req.query.contact
   })
   res.status(200).send(customer);
 } catch (err) {
